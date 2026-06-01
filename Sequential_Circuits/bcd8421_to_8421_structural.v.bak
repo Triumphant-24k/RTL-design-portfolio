@@ -1,0 +1,25 @@
+module bcd8421_to_8421_structural (
+  input A, B, C, D,
+  output W, X, Y, Z
+);
+
+  wire notC;
+  wire B_and_C;
+  wire B_and_notC;
+
+  // Inverters
+  not (notC, C);
+
+  // AND gates
+  and (B_and_C, B, C);
+  and (B_and_notC, B, notC);
+
+  // OR gates
+  or (W, A, B_and_C);         // W = A + B·C
+  or (X, A, B_and_notC);      // X = A + B·C'
+
+  // Direct assignments
+  assign Y = B_and_C;         // Y = B·C
+  assign Z = D;               // Z = D
+
+endmodule

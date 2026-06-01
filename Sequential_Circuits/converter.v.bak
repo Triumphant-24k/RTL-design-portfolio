@@ -1,0 +1,33 @@
+module converter(
+    input A, B, C, D,
+    output W, X, Y, Z
+);
+
+// NOT gates
+wire nA, nB, nC;
+not g1(nA, A);
+not g2(nB, B);
+not g3(nC, C);
+
+// AND gates for X
+wire x1, x2;
+and g4(x1, B, nA);
+and g5(x2, A, nB);
+
+// OR gate for X
+or g6(X, x1, x2);
+
+// AND gates for Y
+wire y1, y2;
+and g7(y1, C, nA);
+and g8(y2, A, nC);
+
+// OR gate for Y
+or g9(Y, y1, y2);
+
+// Direct assignments
+assign W = A;
+assign Z = D;
+
+endmodule
+

@@ -1,0 +1,15 @@
+C:/Users/Trium/OneDrive/Desktop/stuffs/tb_updown_counter.v {1 {vlog -work work -stats=none C:/Users/Trium/OneDrive/Desktop/stuffs/tb_updown_counter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_updown_counter
+
+Top level modules:
+	tb_updown_counter
+
+} {} {}} C:/Users/Trium/OneDrive/Desktop/stuffs/updown_counter.v {1 {vlog -work work -stats=none C:/Users/Trium/OneDrive/Desktop/stuffs/updown_counter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module updown_counter
+
+Top level modules:
+	updown_counter
+
+} {} {}}

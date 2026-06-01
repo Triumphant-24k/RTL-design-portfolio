@@ -1,0 +1,20 @@
+module test;
+    reg A, B, C, D;
+    wire W, X, Y, Z;
+
+    converter uut(.A(A), .B(B), .C(C), .D(D), .W(W), .X(X), .Y(Y), .Z(Z));
+
+    integer i;
+    initial begin
+        $display("A B C D | W X Y Z | Decimal | Output");
+        $display("-------------------------------------");
+        for(i = 0; i < 10; i = i + 1) begin
+            {A, B, C, D} = i[3:0];
+            #1;
+            $display("%b %b %b %b | %b %b %b %b |   %1d   |   %b%b%b%b",
+                A, B, C, D, W, X, Y, Z, i, W, X, Y, Z);
+        end
+        $finish;
+    end
+endmodule
+

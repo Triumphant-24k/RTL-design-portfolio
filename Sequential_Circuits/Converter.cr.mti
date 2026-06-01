@@ -1,0 +1,36 @@
+C:/Users/Trium/OneDrive/Desktop/stuffs/Structure.v {1 {vlog -work work -stats=none C:/Users/Trium/OneDrive/Desktop/stuffs/Structure.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Structure
+
+Top level modules:
+	Structure
+
+} {} {}} C:/Users/Trium/OneDrive/Desktop/stuffs/Behave.v {1 {vlog -work work -stats=none C:/Users/Trium/OneDrive/Desktop/stuffs/Behave.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Behave
+
+Top level modules:
+	Behave
+
+} {} {}} C:/Users/Trium/OneDrive/Desktop/stuffs/testbench.v {1 {vlog -work work -stats=none C:/Users/Trium/OneDrive/Desktop/stuffs/testbench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} C:/Users/Trium/OneDrive/Desktop/stuffs/converter.v {1 {vlog -work work -stats=none C:/Users/Trium/OneDrive/Desktop/stuffs/converter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module converter
+
+Top level modules:
+	converter
+
+} {} {}} C:/Users/Trium/OneDrive/Desktop/stuffs/test.v {1 {vlog -work work -stats=none C:/Users/Trium/OneDrive/Desktop/stuffs/test.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module test
+
+Top level modules:
+	test
+
+} {} {}}
