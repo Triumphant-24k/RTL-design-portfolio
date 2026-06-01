@@ -1,0 +1,30 @@
+module adder(x, y, S, Load, Clk, Clear);
+  input [3:0] x, y;
+  input Load, Clk, Clear;
+  output [3:0] S;
+  wire SO1, SO2;
+  reg [3:0] sum;
+  wire serial_sum;
+
+  // Shift registers for inputs
+  wire [3:0] Qx, Qy;
+  shiftreg r1 (.Sin(1'b0), .P(x), .SOut(SO1), .Q(Qx), .Clk(Clk), .Load(Load));
+  shiftreg r2 (.Sin(1'b0), .P(y), .SOut(SO2), .Q(Qy), .Clk(Clk), .Load(Load));
+
+  // Serial adder (uses DFF inside to hold carry)
+  serial_adder sa (.x(SO1), .y(SO2), .S(serial_sum), .Clk(Clk), .Clear(Clear));
+
+  // Gather serial sum bits into a parallel output
+  reg [2:0] bit_counter;
+  always @(posedge Clk or posedge Load) begin
+    if (Load) begin
+      sum <= 0;
+      bit_counter <= 0;
+    end else if (bit_counter < 4) begin
+      sum <= {serial_sum, sum[3:1]}; // shift in MSB-first
+      bit_counter <= bit_counter + 1;
+    end
+  end
+  assign S = sum;
+endmodule
+

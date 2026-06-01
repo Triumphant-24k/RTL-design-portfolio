@@ -1,0 +1,30 @@
+C:/Users/Trium/OneDrive/Desktop/stuffs/tb_array_multiplier.v {1 {vlog -work work -stats=none C:/Users/Trium/OneDrive/Desktop/stuffs/tb_array_multiplier.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_array_multiplier
+
+Top level modules:
+	tb_array_multiplier
+
+} {} {}} C:/Users/Trium/OneDrive/Desktop/stuffs/ripple_carry_adder.v {1 {vlog -work work -stats=none C:/Users/Trium/OneDrive/Desktop/stuffs/ripple_carry_adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ripple_carry_adder
+-- Compiling module full_adder
+
+Top level modules:
+	ripple_carry_adder
+
+} {} {}} C:/Users/Trium/OneDrive/Desktop/stuffs/array_multiplier_4bit.v {1 {vlog -work work -stats=none C:/Users/Trium/OneDrive/Desktop/stuffs/array_multiplier_4bit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module array_multiplier_4bit
+
+Top level modules:
+	array_multiplier_4bit
+
+} {} {}} C:/Users/Trium/OneDrive/Desktop/stuffs/array_mul.v {1 {vlog -work work -stats=none C:/Users/Trium/OneDrive/Desktop/stuffs/array_mul.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module array_mul
+
+Top level modules:
+	array_mul
+
+} {} {}}

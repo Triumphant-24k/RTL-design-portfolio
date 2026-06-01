@@ -1,0 +1,51 @@
+// 4-bit Array Multiplier using 4-bit RCAs
+module array_multiplier_4bit(
+    input [3:0] A, B,
+    output [7:0] P
+);
+    wire [3:0] pp0, pp1, pp2, pp3; // partial products
+    wire [3:0] sum1, sum2, sum3;
+    wire c1, c2, c3;
+
+    // Partial product generation
+    assign pp0 = A & {4{B[0]}};
+    assign pp1 = A & {4{B[1]}};
+    assign pp2 = A & {4{B[2]}};
+    assign pp3 = A & {4{B[3]}};
+
+    // Stage 1: Add pp0 and shifted pp1
+    ripple_carry_adder rca1(
+        .a({1'b0, pp0[3:1]}), 
+        .b(pp1), 
+        .cin(0), 
+        .sum(sum1), 
+        .cout(c1)
+    );
+
+    // Stage 2: Add sum1 (shifted) and pp2
+    ripple_carry_adder rca2(
+        .a({c1, sum1[3:1]}), 
+        .b(pp2), 
+        .cin(0), 
+        .sum(sum2), 
+        .cout(c2)
+    );
+
+    // Stage 3: Add sum2 (shifted) and pp3
+    ripple_carry_adder rca3(
+        .a({c2, sum2[3:1]}), 
+        .b(pp3), 
+        .cin(0), 
+        .sum(sum3), 
+        .cout(c3)
+    );
+
+    // Final product assembly
+    assign P[0] = pp0[0];
+    assign P[1] = sum1[0];
+    assign P[2] = sum2[0];
+    assign P[6:3] = sum3;
+    assign P[7] = c3;
+
+endmodule
+

@@ -1,0 +1,34 @@
+C:/Users/Trium/OneDrive/Desktop/stuffs/counter_tb.v {0 {vlog -work work -stats=none C:/Users/Trium/OneDrive/Desktop/stuffs/counter_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module d_Ff
+** Error: (vlog-13067) d_Ff.v(4:10): Syntax error, unexpected non-printable character with the hex value '0xa0'.
+** Error: (vlog-13067) d_Ff.v(4:13): Syntax error, unexpected non-printable character with the hex value '0xa0'.
+-- Compiling module JKFF
+** Error: (vlog-13067) JKFF.v(5:23): Syntax error, unexpected non-printable character with the hex value '0xa0'.
+-- Compiling module counter
+-- Compiling module counter_tb
+
+} {4.0 6.0 7.0 8.0} {}} C:/Users/Trium/OneDrive/Desktop/stuffs/JKFF.v {0 {vlog -work work -stats=none C:/Users/Trium/OneDrive/Desktop/stuffs/JKFF.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module d_Ff
+** Error: (vlog-13067) d_Ff.v(4:10): Syntax error, unexpected non-printable character with the hex value '0xa0'.
+** Error: (vlog-13067) d_Ff.v(4:13): Syntax error, unexpected non-printable character with the hex value '0xa0'.
+-- Compiling module JKFF
+** Error: (vlog-13067) C:/Users/Trium/OneDrive/Desktop/stuffs/JKFF.v(5:23): Syntax error, unexpected non-printable character with the hex value '0xa0'.
+
+} {4.0 6.0 7.0 8.0} {}} C:/Users/Trium/OneDrive/Desktop/stuffs/d_Ff.v {0 {vlog -work work -stats=none C:/Users/Trium/OneDrive/Desktop/stuffs/d_ff.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module d_Ff
+** Error: (vlog-13067) C:/Users/Trium/OneDrive/Desktop/stuffs/d_ff.v(4:10): Syntax error, unexpected non-printable character with the hex value '0xa0'.
+** Error: (vlog-13067) C:/Users/Trium/OneDrive/Desktop/stuffs/d_ff.v(4:13): Syntax error, unexpected non-printable character with the hex value '0xa0'.
+
+} {4.0 6.0} {}} C:/Users/Trium/OneDrive/Desktop/stuffs/counter.v {0 {vlog -work work -stats=none C:/Users/Trium/OneDrive/Desktop/stuffs/counter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module d_Ff
+** Error: (vlog-13067) d_Ff.v(4:10): Syntax error, unexpected non-printable character with the hex value '0xa0'.
+** Error: (vlog-13067) d_Ff.v(4:13): Syntax error, unexpected non-printable character with the hex value '0xa0'.
+-- Compiling module JKFF
+** Error: (vlog-13067) JKFF.v(5:23): Syntax error, unexpected non-printable character with the hex value '0xa0'.
+-- Compiling module counter
+
+} {4.0 6.0 7.0 8.0} {}}

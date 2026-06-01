@@ -1,0 +1,29 @@
+C:/Users/Trium/OneDrive/Desktop/stuffs/array_mul_fourbit.v {0 {vlog -work work -stats=none C:/Users/Trium/OneDrive/Desktop/stuffs/array_mul_fourbit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module array_mul_fourbit
+** Error: (vlog-13067) C:/Users/Trium/OneDrive/Desktop/stuffs/array_mul_fourbit.v(26:0): Syntax error, unexpected non-printable character with the hex value '0xa0'.
+** Error: (vlog-13067) C:/Users/Trium/OneDrive/Desktop/stuffs/array_mul_fourbit.v(26:1): Syntax error, unexpected non-printable character with the hex value '0xa0'.
+** Error: (vlog-13067) C:/Users/Trium/OneDrive/Desktop/stuffs/array_mul_fourbit.v(26:2): Syntax error, unexpected non-printable character with the hex value '0xa0'.
+** Error: (vlog-13067) C:/Users/Trium/OneDrive/Desktop/stuffs/array_mul_fourbit.v(26:3): Syntax error, unexpected non-printable character with the hex value '0xa0'.
+
+} {4.0 8.0} {}} C:/Users/Trium/OneDrive/Desktop/stuffs/tb_array_multiplier.v {1 {vlog -work work -stats=none C:/Users/Trium/OneDrive/Desktop/stuffs/tb_array_multiplier.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_array_multiplier
+
+Top level modules:
+	tb_array_multiplier
+
+} {} {}} C:/Users/Trium/OneDrive/Desktop/stuffs/ripple_carry_adder.v {1 {vlog -work work -stats=none C:/Users/Trium/OneDrive/Desktop/stuffs/ripple_carry_adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ripple_carry_adder
+-- Compiling module full_adder
+
+Top level modules:
+	ripple_carry_adder
+
+} {} {}} C:/Users/Trium/OneDrive/Desktop/stuffs/RCA_4bit.v {0 {vlog -work work -stats=none C:/Users/Trium/OneDrive/Desktop/stuffs/RCA_4bit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+** Error: C:/Users/Trium/OneDrive/Desktop/stuffs/RCA_4bit.v(1): Cannot open `include file "FA.v".
+-- Compiling module RCA_4bit
+
+} {3.0 4.0} {}}

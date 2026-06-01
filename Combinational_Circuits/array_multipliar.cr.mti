@@ -1,0 +1,22 @@
+C:/Users/Trium/OneDrive/Desktop/stuffs/array_multiplier_4bit.v {1 {vlog -work work -stats=none C:/Users/Trium/OneDrive/Desktop/stuffs/array_multiplier_4bit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module half_adder
+-- Compiling module full_adder
+-- Compiling module array_multiplier_4bit
+
+Top level modules:
+	array_multiplier_4bit
+
+} {} {}} C:/Users/Trium/OneDrive/Desktop/stuffs/tb_array_multiplier_4bit.v {1 {vlog -work work -stats=none C:/Users/Trium/OneDrive/Desktop/stuffs/tb_array_multiplier_4bit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_array_multiplier_4bit
+
+Top level modules:
+	tb_array_multiplier_4bit
+
+} {} {}} C:/Users/Trium/OneDrive/Desktop/stuffs/tb_array_multiplier_4bit.vhd {0 {vcom -work work -2002 -explicit -stats=none C:/Users/Trium/OneDrive/Desktop/stuffs/tb_array_multiplier_4bit.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+** Error (suppressible): C:/Users/Trium/OneDrive/Desktop/stuffs/tb_array_multiplier_4bit.vhd(2): (vcom-1491) Empty source files.
+
+} {} {}}

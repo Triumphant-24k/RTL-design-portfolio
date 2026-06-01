@@ -1,0 +1,35 @@
+C:/Users/Trium/OneDrive/Desktop/stuffs/JKFF.v {1 {vlog -work work -stats=none C:/Users/Trium/OneDrive/Desktop/stuffs/JKFF.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DFF
+-- Compiling module JKFF
+
+Top level modules:
+	JKFF
+
+} {} {}} C:/Users/Trium/OneDrive/Desktop/stuffs/counter_tb.v {1 {vlog -work work -stats=none C:/Users/Trium/OneDrive/Desktop/stuffs/counter_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DFF
+-- Compiling module JKFF
+-- Compiling module counter
+-- Compiling module counter_tb
+
+Top level modules:
+	counter_tb
+
+} {} {}} C:/Users/Trium/OneDrive/Desktop/stuffs/DFF.v {1 {vlog -work work -stats=none C:/Users/Trium/OneDrive/Desktop/stuffs/DFF.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DFF
+
+Top level modules:
+	DFF
+
+} {} {}} C:/Users/Trium/OneDrive/Desktop/stuffs/counter.v {1 {vlog -work work -stats=none C:/Users/Trium/OneDrive/Desktop/stuffs/counter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DFF
+-- Compiling module JKFF
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}}
