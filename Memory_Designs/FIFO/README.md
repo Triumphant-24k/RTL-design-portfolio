@@ -14,7 +14,7 @@ The waveform below demonstrates:
 
 ### ModelSim Simulation Result
 
-![FIFO Waveform](fifo_waveform.png)
+![FIFO Waveform](image.png)
 
 ---
 
