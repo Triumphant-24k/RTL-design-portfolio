@@ -184,4 +184,3 @@ Electronics & Communication Engineering Student
 
 Aspiring RTL Design Engineer | FPGA Enthusiast | RISC-V Learner
 
-GitHub: https://github.com/Triumphant-24k
